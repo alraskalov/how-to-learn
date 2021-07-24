@@ -331,7 +331,7 @@
   font-weight: bold;
 }
 
-.footer__column_links {
+.footer__column-links {
   margin: 0 0 20px;
   padding: 0;
   display: flex;
@@ -339,7 +339,7 @@
   list-style-type: none;
 }
 
-.footer__column_link {
+.footer__column-link {
   display: flex;
   align-items: center;
   line-height: 30px;
@@ -350,7 +350,7 @@
   transition: text-decoration-color 300ms;
 }
 
-.footer__column_link:hover {
+.footer__column-link:hover {
   text-decoration-color: rgb(255, 255, 255);
 }
 
