@@ -61,6 +61,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 1s;
+}
+
+.header__link:hover {
+  opacity: 0.6;
 }
 
 .header__main-illustration {
@@ -230,6 +235,11 @@
   font-weight: normal;
   text-decoration: none;
   z-index: 2;
+  transition: opacity 1s;
+}
+
+.feynman__link:hover {
+  opacity: 0.6;
 }
 
 /* Section: Kaufman */
@@ -322,9 +332,11 @@
 }
 
 .footer__column_links {
+  margin: 0 0 20px;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  list-style-type: none;
 }
 
 .footer__column_link {
@@ -335,6 +347,12 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
+  text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+  transition: text-decoration-color 300ms;
+}
+
+.footer__column_link:hover {
+  text-decoration-color: rgb(255, 255, 255);
 }
 
 .footer__social-icon {
